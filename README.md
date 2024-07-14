@@ -11,7 +11,7 @@ to use this file, you first need to install the libraries using this command:
 
  ```pip install requests pandas```
 
- then you can simply run the program and search for the articles you want.
+ then you can run the program and search for the articles you want.
 
 ### Search with library
 The search_with_library uses the packages provided by these publications instead of using their APIs.
@@ -24,4 +24,8 @@ this command:
 
 after that, you can run the program and input your query.
 
-**It is recommended to use both methods, since each method can have some missing data that the other method might provide!**
+**It is recommended to use both methods since each method can have some missing data that the other method might provide!**
+To achieve this, there is a ```search.py``` file provided which you can use to search in both ways and crossmatch the articles so the data
+could be more complete
+
+note that there may still be some empty cells but that is because neither method could provide that piece of information and it is not the system's fault.
