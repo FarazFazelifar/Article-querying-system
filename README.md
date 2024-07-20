@@ -20,7 +20,7 @@ initialization file. To do this, you must copy the ```config.ini``` file into yo
 this is typically located at ```C:\Users\YourUsername\.scopus\```. Then you will need to install the required packages with 
 this command:
 
-```pip install arxiv biopython pybliometric```
+```pip install arxiv biopython pybliometrics```
 
 after that, you can run the program and input your query.
 
